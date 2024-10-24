@@ -1,0 +1,30 @@
+.reserve-form div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    padding: 20px;
+}
+.reserve-form label {
+    padding-right: 20px;
+}
+.reserve-form {
+    display:flex;
+    flex-direction:column;
+    flex-grow: 1;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.reserve-success {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.error {
+    border: 5px solid red;
+}

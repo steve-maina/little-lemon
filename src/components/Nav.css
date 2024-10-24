@@ -1,0 +1,11 @@
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links {
+    list-style-type: none;
+}
+.nav-links-vertical {
+    display: flex;
+    justify-content: space-evenly;
+}
+

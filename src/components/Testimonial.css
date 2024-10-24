@@ -1,0 +1,18 @@
+.testimonial-section h2 {
+    display: flex;
+    justify-content: center;
+    color: #f4ce14;
+    padding-bottom: 50px;
+}
+.testimonial-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+}
+
+.testimonial-section {
+    background-color: #495e57;
+    padding: 50px;
+}
+

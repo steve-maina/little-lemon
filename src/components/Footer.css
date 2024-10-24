@@ -1,0 +1,40 @@
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #7ed1b5;
+}
+.footer-section p {
+    color: white;
+}
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+.footer-socials a {
+    display: block;
+    margin-bottom: 15px;
+}
+.footer-socials a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 768px) {
+    .footer-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-socials {
+        display: none;
+    }
+    .footer-img {
+        display:none
+    }
+    .footer-nav a {
+        text-decoration: underline;
+    }
+    .footer-nav a:visited {
+        text-decoration: underline;
+        color: purple;
+    }
+}

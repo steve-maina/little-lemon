@@ -1,0 +1,44 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #495e57;
+    height: 250px;
+    padding: 50px;
+}
+.hero-description a {
+    display: inline-block;
+    background-color: #f4ce14;
+    border-radius: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px 60px;
+}
+.hero-description p {
+    color:white;
+}
+.hero-description h2 {
+    color: #f4ce14;
+}
+.hero-description a:visited {
+    color: black;
+}
+.hero-description a {
+    color: black;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+@media (max-width: 768px) {
+    .hero-img {
+        display:none;
+    }
+    .hero-section{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
